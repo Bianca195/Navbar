@@ -1,0 +1,60 @@
+.nav-link svg {
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.navbar {
+  position:fixed; 
+  background-color:black; 
+  top:0;
+  bottom:0;
+  left:0;
+}
+body {
+  margin:0;
+}
+
+.nav-link span {
+  display:none;
+}
+
+.navbar-nav {
+  padding:0;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+}
+
+.nav-item:last-child {
+  margin-top:auto;
+}
+.navbar:hover span {
+  display:revert;
+} 
+.navbar:hover .logo span {
+  display:none;
+}
+
+.nav-item:hover svg {
+  color:rgb(157, 68, 123);
+}
+
+svg, a {
+  color:rgb(117, 114, 114);
+  text-decoration:none;
+}
+
+.nav-link {
+  display:flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  background-color:rgb(200,200,200);
+}
+
+body {
+  margin-left:110px;
+}
